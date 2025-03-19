@@ -13,7 +13,7 @@ The **Legal RAG App** is a **Retrieval-Augmented Generation (RAG)** system desig
 ✅ **Efficient Information Retrieval** – Uses **FAISS vector database** for fast similarity search.  
 ✅ **High-Quality Embeddings** – Utilizes **Hugging Face MiniLM-L6-v2** for embedding creation.  
 ✅ **RAG-Based Answering** – Integrates a **RetrievalQA Chain** for context-aware responses.  
-✅ **FastAPI Integration** – Provides a REST API for querying legal cases.  
+✅ **FastAPI Integration** – Provides a Fast API for querying legal cases.  
 
 ## **Tech Stack**  
 - **Programming Language**: Python  
