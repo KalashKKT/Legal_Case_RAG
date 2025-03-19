@@ -9,11 +9,11 @@ Here's a **README** description for your **Legal RAG App** project:
 The **Legal RAG App** is a **Retrieval-Augmented Generation (RAG)** system designed to assist legal professionals, law students, and individuals in finding relevant **Indian Penal Code (IPC)** sections for legal cases. It utilizes **FastAPI** for API interaction, **FAISS** for vector database storage, and **Groq's LLaMA-3** as the language model.  
 
 ## **Features**  
-✅ **Legal Document Processing** – Loads and splits IPC legal text from a CSV file.  
-✅ **Efficient Information Retrieval** – Uses **FAISS vector database** for fast similarity search.  
-✅ **High-Quality Embeddings** – Utilizes **Hugging Face MiniLM-L6-v2** for embedding creation.  
-✅ **RAG-Based Answering** – Integrates a **RetrievalQA Chain** for context-aware responses.  
-✅ **FastAPI Integration** – Provides a Fast API for querying legal cases.  
+ **Legal Document Processing** – Loads and splits IPC legal text from a CSV file.  
+ **Efficient Information Retrieval** – Uses **FAISS vector database** for fast similarity search.  
+ **High-Quality Embeddings** – Utilizes **Hugging Face MiniLM-L6-v2** for embedding creation.  
+ **RAG-Based Answering** – Integrates a **RetrievalQA Chain** for context-aware responses.  
+ **FastAPI Integration** – Provides a Fast API for querying legal cases.  
 
 ## **Tech Stack**  
 - **Programming Language**: Python  
