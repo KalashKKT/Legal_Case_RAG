@@ -1,6 +1,3 @@
-# Legal_Case_RAG
-Here's a **README** description for your **Legal RAG App** project:  
-
 ---
 
 # **Legal RAG App – Indian Penal Code (IPC) Legal Assistant**  
