@@ -80,5 +80,3 @@ python IPC_RAG_App.py
 🔹 Implement multi-model support for legal research.  
 
 ---
-
-Would you like any modifications or additions? 🚀
