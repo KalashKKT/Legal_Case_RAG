@@ -1,3 +1,5 @@
+
+
 ---
 
 # **Legal RAG App – Indian Penal Code (IPC) Legal Assistant**  
@@ -6,48 +8,48 @@
 The **Legal RAG App** is a **Retrieval-Augmented Generation (RAG)** system designed to assist legal professionals, law students, and individuals in finding relevant **Indian Penal Code (IPC)** sections for legal cases. It utilizes **FastAPI** for API interaction, **FAISS** for vector database storage, and **Groq's LLaMA-3** as the language model.  
 
 ## **Features**  
- **Legal Document Processing** – Loads and splits IPC legal text from a CSV file.  
- **Efficient Information Retrieval** – Uses **FAISS vector database** for fast similarity search.  
- **High-Quality Embeddings** – Utilizes **Hugging Face MiniLM-L6-v2** for embedding creation.  
- **RAG-Based Answering** – Integrates a **RetrievalQA Chain** for context-aware responses.  
- **FastAPI Integration** – Provides a Fast API for querying legal cases.  
+- **Legal Document Processing** – Loads and splits IPC legal text from a CSV file.  
+- **Efficient Information Retrieval** – Uses **FAISS vector database** for fast similarity search.  
+- **High-Quality Embeddings** – Utilizes **Hugging Face MiniLM-L6-v2** for embedding creation.  
+- **RAG-Based Answering** – Integrates a **RetrievalQA Chain** for context-aware responses.  
+- **FastAPI Integration** – Provides a REST API for querying legal cases.  
 
 ## **Tech Stack**  
-- **Programming Language**: Python  
-- **Libraries**:  
-  - **LangChain** (RetrievalQA, FAISS, Embeddings)  
-  - **Hugging Face Embeddings**  
-  - **Groq Chat (LLaMA-3)**  
-  - **FastAPI** (Backend API)  
-  - **FAISS** (Vector Search Engine)  
-  - **Uvicorn** (ASGI Server)  
+- **Programming Language:** Python  
+- **Libraries:**  
+  - LangChain (RetrievalQA, FAISS, Embeddings)  
+  - Hugging Face Embeddings  
+  - Groq Chat (LLaMA-3)  
+  - FastAPI (Backend API)  
+  - FAISS (Vector Search Engine)  
+  - Uvicorn (ASGI Server)  
 
 ## **Installation & Setup**  
 
-1️⃣ **Clone the repository**  
+### 1️⃣ **Clone the repository**  
 ```bash
 git clone https://github.com/KalashKKT/Legal_Case_RAG.git
 cd Legal_Case_RAG
 ```
 
-2️⃣ **Install dependencies**  
+### 2️⃣ **Install dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
 
-3️⃣ **Set up environment variables**  
+### 3️⃣ **Set up environment variables**  
 Create a `.env` file and add:  
 ```
 GROQ_API="your_groq_api_key"
 ```
 
-4️⃣ **Run the FastAPI server**  
+### 4️⃣ **Run the FastAPI server**  
 ```bash
 python IPC_RAG_App.py
 ```
 
-5️⃣ **Access the API**  
-- Visit **http://localhost:8000/docs** for API documentation.  
+### 5️⃣ **Access the API**  
+- Visit **[http://localhost:8000/docs](http://localhost:8000/docs)** for API documentation.  
 - Send a **POST request** to `http://localhost:8000/chain` with a **JSON payload**:  
 ```json
 {
@@ -72,8 +74,8 @@ python IPC_RAG_App.py
 ```
 
 ## **Future Enhancements**  
-🔹 Expand the dataset with more legal codes and case precedents.  
-🔹 Improve retrieval accuracy with better embeddings.  
-🔹 Implement multi-model support for legal research.  
+- Expand the dataset with more legal codes and case precedents.  
+- Improve retrieval accuracy with better embeddings.  
+- Implement multi-model support for legal research.  
 
 ---
