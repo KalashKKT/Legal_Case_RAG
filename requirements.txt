@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain_groq
+langserve[all]
+langchain_core
+FastAPI
+uvicorn
+python-dotenv
+langgraph
+sentence-transformers
